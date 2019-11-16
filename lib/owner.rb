@@ -49,8 +49,7 @@ class Owner
   end
   
   def list_pets
-    pets = self.cats.concat self.dogs
-    binding.pry
+    num_dogs = self.dogs.size
   end
   
   def self.all
