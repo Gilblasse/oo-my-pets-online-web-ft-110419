@@ -49,7 +49,7 @@ class Owner
   end
   
   def list_pets
-    num_dogs = self.dogs.size
+    num_dogs, num_cats= self.dogs.size
   end
   
   def self.all
